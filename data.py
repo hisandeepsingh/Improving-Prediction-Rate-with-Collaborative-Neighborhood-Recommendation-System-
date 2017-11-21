@@ -2,7 +2,7 @@ import pandas as pd
 import graphlab
 
 # pass in column names for each CSV and read them using pandas.
-# Column names available in the readme file
+
 
 # Reading users file:
 u_cols = ['user_id', 'age', 'sex', 'occupation', 'zip_code']
