@@ -1,0 +1,180 @@
+Evaluating RMSE, MAE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.9395
+MAE:  0.7410
+------------
+Fold 2
+RMSE: 0.9364
+MAE:  0.7383
+------------
+Fold 3
+RMSE: 0.9326
+MAE:  0.7372
+------------
+Fold 4
+RMSE: 0.9303
+MAE:  0.7323
+------------
+Fold 5
+RMSE: 0.9339
+MAE:  0.7356
+------------
+------------
+Mean RMSE: 0.9345
+Mean MAE : 0.7369
+------------
+------------
+--- 50.9582459927 seconds ---
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9820
+MAE:  0.7764
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9835
+MAE:  0.7777
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9791
+MAE:  0.7723
+------------
+Fold 4
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9709
+MAE:  0.7655
+------------
+Fold 5
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9770
+MAE:  0.7729
+------------
+------------
+Mean RMSE: 0.9785
+Mean MAE : 0.7730
+------------
+------------
+...41.5949261189 seconds...
+Evaluating RMSE, MAE of algorithm KNNBaseline.
+
+------------
+Fold 1
+Estimating biases using als...
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9334
+MAE:  0.7356
+------------
+Fold 2
+Estimating biases using als...
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9339
+MAE:  0.7345
+------------
+Fold 3
+Estimating biases using als...
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9305
+MAE:  0.7339
+------------
+Fold 4
+Estimating biases using als...
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9229
+MAE:  0.7268
+------------
+Fold 5
+Estimating biases using als...
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9275
+MAE:  0.7318
+------------
+------------
+Mean RMSE: 0.9296
+Mean MAE : 0.7325
+------------
+------------
+...48.7088220119 seconds...
+Evaluating RMSE, MAE of algorithm KNNWithMeans.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9522
+MAE:  0.7497
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9521
+MAE:  0.7497
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9534
+MAE:  0.7519
+------------
+Fold 4
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9440
+MAE:  0.7437
+------------
+Fold 5
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9476
+MAE:  0.7479
+------------
+------------
+Mean RMSE: 0.9499
+Mean MAE : 0.7486
+------------
+------------
+...41.753619194 seconds...
+Evaluating RMSE, MAE of algorithm NormalPredictor.
+
+------------
+Fold 1
+RMSE: 1.5212
+MAE:  1.2221
+------------
+Fold 2
+RMSE: 1.5115
+MAE:  1.2122
+------------
+Fold 3
+RMSE: 1.5194
+MAE:  1.2158
+------------
+Fold 4
+RMSE: 1.5149
+MAE:  1.2178
+------------
+Fold 5
+RMSE: 1.5202
+MAE:  1.2241
+------------
+------------
+Mean RMSE: 1.5174
+Mean MAE : 1.2184
+------------
+------------
+...3.96094894409 seconds...
