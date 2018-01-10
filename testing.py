@@ -14,11 +14,13 @@ users = pd.read_csv('ml-100k/u.user', sep='|', names=u_cols,
                     encoding='latin-1')
 #print users.head()
 #data.split(n_folds=2)
+# initializing all algorithms
 algo1 = SVD()
 algo2= KNNBasic()
 algo3=KNNBaseline()
 algo4=KNNWithMeans()
 algo5=NormalPredictor()
+# To calculate the time difference
 #start_time1=time.time()
 start = timeit.default_timer()
 perf1 = evaluate(algo1, data, measures=['RMSE', 'MAE'])
