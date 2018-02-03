@@ -21,4 +21,16 @@ def read_item_names():
 
     return rid_to_name, name_to_rid
 
+# First, train the algortihm to compute the similarities between items
+data = Dataset.load_builtin('ml-100k')
+trainset = data.build_full_trainset()
+
+bsl_options = {'method': 'als',
+               'n_epochs': 20
+               }
+sim_options = {'name': 'pearson_baseline'}
+
+algo = KNNBaseline(sim_options=sim_options)
+algo.fit(trainset)
+
 
