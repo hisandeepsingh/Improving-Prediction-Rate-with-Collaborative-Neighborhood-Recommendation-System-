@@ -27,7 +27,7 @@ data = Dataset.load_builtin('ml-100k')
 trainset = data.build_full_trainset()
 
 bsl_options = {'method': 'als',
-               'n_epochs': 20
+               'n_epochs': 10
                }
 sim_options = {'name': 'pearson_baseline'}
 
