@@ -26,8 +26,8 @@ def read_item_names():
 data = Dataset.load_builtin('ml-100k')
 trainset = data.build_full_trainset()
 
-bsl_options = {'method': 'als',
-               'n_epochs': 10
+bsl_options = {'method': 'sgd',
+               'learning_rate': .00005,
                }
 sim_options = {'name': 'pearson_baseline'}
 
