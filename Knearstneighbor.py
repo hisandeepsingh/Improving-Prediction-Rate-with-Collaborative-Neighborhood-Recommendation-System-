@@ -28,6 +28,7 @@ trainset = data.build_full_trainset()
 
 bsl_options = {'method': 'sgd',
                'learning_rate': .00005,
+		'n_epochs': 20,
                }
 sim_options = {'name': 'pearson_baseline'}
 
