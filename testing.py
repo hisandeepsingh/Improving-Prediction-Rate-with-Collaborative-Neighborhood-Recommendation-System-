@@ -15,8 +15,7 @@ users = pd.read_csv('ml-100k/u.user', sep='|', names=u_cols,
 #print users.head()
 #data.split(n_folds=2)
 # initializing all algorithms
-bsl_options = {'method': 'sgd',
-               'learning_rate': .00005,
+bsl_options = {'method': 'als',
 		'n_epochs': 20,
                }
 sim_options = {'name': 'pearson_baseline'}
