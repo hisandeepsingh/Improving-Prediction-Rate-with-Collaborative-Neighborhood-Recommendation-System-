@@ -15,9 +15,15 @@ users = pd.read_csv('ml-100k/u.user', sep='|', names=u_cols,
 #print users.head()
 #data.split(n_folds=2)
 # initializing all algorithms
+bsl_options = {'method': 'sgd',
+               'learning_rate': .00005,
+		'n_epochs': 20,
+               }
+sim_options = {'name': 'pearson_baseline'}
+
+algo3= KNNBaseline(sim_options=sim_options)
 algo1 = SVD()
 algo2= KNNBasic()
-algo3=KNNBaseline()
 algo4=KNNWithMeans()
 algo5=NormalPredictor()
 
