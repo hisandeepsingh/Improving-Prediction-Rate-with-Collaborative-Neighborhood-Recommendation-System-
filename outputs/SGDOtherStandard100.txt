@@ -1,0 +1,218 @@
+Evaluating RMSE, MAE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.9398
+MAE:  0.7388
+------------
+Fold 2
+RMSE: 0.9386
+MAE:  0.7392
+------------
+Fold 3
+RMSE: 0.9291
+MAE:  0.7320
+------------
+Fold 4
+RMSE: 0.9371
+MAE:  0.7373
+------------
+Fold 5
+RMSE: 0.9363
+MAE:  0.7396
+------------
+------------
+Mean RMSE: 0.9362
+Mean MAE : 0.7374
+------------
+------------
+--- 19.1125249863 seconds ---
+Evaluating RMSE, MAE of algorithm SlopeOne.
+
+------------
+Fold 1
+RMSE: 0.9469
+MAE:  0.7427
+------------
+Fold 2
+RMSE: 0.9429
+MAE:  0.7398
+------------
+Fold 3
+RMSE: 0.9449
+MAE:  0.7430
+------------
+Fold 4
+RMSE: 0.9443
+MAE:  0.7424
+------------
+Fold 5
+RMSE: 0.9460
+MAE:  0.7455
+------------
+------------
+Mean RMSE: 0.9450
+Mean MAE : 0.7427
+------------
+------------
+...13.463821888 seconds...
+Evaluating RMSE, MAE of algorithm KNNBaseline.
+
+------------
+Fold 1
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9232
+MAE:  0.7206
+------------
+Fold 2
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9182
+MAE:  0.7189
+------------
+Fold 3
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9193
+MAE:  0.7203
+------------
+Fold 4
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9249
+MAE:  0.7233
+------------
+Fold 5
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9205
+MAE:  0.7230
+------------
+------------
+Mean RMSE: 0.9212
+Mean MAE : 0.7212
+------------
+------------
+...23.0714759827 seconds...
+Evaluating RMSE, MAE of algorithm SVDpp.
+
+------------
+Fold 1
+RMSE: 0.9209
+MAE:  0.7219
+------------
+Fold 2
+RMSE: 0.9132
+MAE:  0.7153
+------------
+Fold 3
+RMSE: 0.9170
+MAE:  0.7193
+------------
+Fold 4
+RMSE: 0.9179
+MAE:  0.7199
+------------
+Fold 5
+RMSE: 0.9179
+MAE:  0.7218
+------------
+------------
+Mean RMSE: 0.9174
+Mean MAE : 0.7197
+------------
+------------
+...651.988604069 seconds...
+Evaluating RMSE, MAE of algorithm NormalPredictor.
+
+------------
+Fold 1
+RMSE: 1.5328
+MAE:  1.2331
+------------
+Fold 2
+RMSE: 1.5221
+MAE:  1.2220
+------------
+Fold 3
+RMSE: 1.5134
+MAE:  1.2175
+------------
+Fold 4
+RMSE: 1.5274
+MAE:  1.2264
+------------
+Fold 5
+RMSE: 1.5135
+MAE:  1.2145
+------------
+------------
+Mean RMSE: 1.5218
+Mean MAE : 1.2227
+------------
+------------
+...1.98588013649 seconds...
+Evaluating RMSE, MAE of algorithm SlopeOne.
+
+------------
+Fold 1
+RMSE: 0.9469
+MAE:  0.7427
+------------
+Fold 2
+RMSE: 0.9429
+MAE:  0.7398
+------------
+Fold 3
+RMSE: 0.9449
+MAE:  0.7430
+------------
+Fold 4
+RMSE: 0.9443
+MAE:  0.7424
+------------
+Fold 5
+RMSE: 0.9460
+MAE:  0.7455
+------------
+------------
+Mean RMSE: 0.9450
+Mean MAE : 0.7427
+------------
+------------
+...12.7232480049 seconds...
+Evaluating RMSE, MAE of algorithm CoClustering.
+
+------------
+Fold 1
+RMSE: 0.9636
+MAE:  0.7528
+------------
+Fold 2
+RMSE: 0.9583
+MAE:  0.7501
+------------
+Fold 3
+RMSE: 0.9650
+MAE:  0.7547
+------------
+Fold 4
+RMSE: 0.9654
+MAE:  0.7558
+------------
+Fold 5
+RMSE: 0.9637
+MAE:  0.7553
+------------
+------------
+Mean RMSE: 0.9632
+Mean MAE : 0.7537
+------------
+------------
+....7.02191495895 seconds....

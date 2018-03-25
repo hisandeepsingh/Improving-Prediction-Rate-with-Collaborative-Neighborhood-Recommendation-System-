@@ -1,0 +1,225 @@
+/home/sandeep/Desktop/RS/venv/bin/python /home/sandeep/Desktop/RS/proposed_OtherStandard.py
+/home/sandeep/Desktop/RS/venv/lib/python2.7/site-packages/surprise/evaluate.py:66: UserWarning: The evaluate() method is deprecated. Please use model_selection.cross_validate() instead.
+Evaluating RMSE, MAE of algorithm SVD.
+  'model_selection.cross_validate() instead.', UserWarning)
+
+/home/sandeep/Desktop/RS/venv/lib/python2.7/site-packages/surprise/dataset.py:193: UserWarning: Using data.split() or using load_from_folds() without using a CV iterator is now deprecated. 
+  UserWarning)
+------------
+Fold 1
+RMSE: 0.8740
+MAE:  0.6861
+------------
+Fold 2
+RMSE: 0.8733
+MAE:  0.6848
+------------
+Fold 3
+RMSE: 0.8721
+MAE:  0.6851
+------------
+Fold 4
+RMSE: 0.8742
+MAE:  0.6867
+------------
+Fold 5
+RMSE: 0.8736
+MAE:  0.6856
+------------
+------------
+Mean RMSE: 0.8734
+Mean MAE : 0.6857
+------------
+------------
+--- 197.977070808 seconds ---
+Evaluating RMSE, MAE of algorithm SlopeOne.
+
+------------
+Fold 1
+RMSE: 0.9071
+MAE:  0.7152
+------------
+Fold 2
+RMSE: 0.9075
+MAE:  0.7145
+------------
+Fold 3
+RMSE: 0.9046
+MAE:  0.7131
+------------
+Fold 4
+RMSE: 0.9061
+MAE:  0.7141
+------------
+Fold 5
+RMSE: 0.9071
+MAE:  0.7150
+------------
+------------
+Mean RMSE: 0.9065
+Mean MAE : 0.7144
+------------
+------------
+...289.993577957 seconds...
+Evaluating RMSE, MAE of algorithm KNNBaseline.
+
+------------
+Fold 1
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8693
+MAE:  0.6809
+------------
+Fold 2
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8691
+MAE:  0.6803
+------------
+Fold 3
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8662
+MAE:  0.6780
+------------
+Fold 4
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8683
+MAE:  0.6800
+------------
+Fold 5
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8696
+MAE:  0.6811
+------------
+------------
+Mean RMSE: 0.8685
+Mean MAE : 0.6800
+------------
+------------
+...885.03879714 seconds...
+Evaluating RMSE, MAE of algorithm SVDpp.
+
+------------
+Fold 1
+RMSE: 0.8628
+MAE:  0.6731
+------------
+Fold 2
+RMSE: 0.8626
+MAE:  0.6731
+------------
+Fold 3
+RMSE: 0.8613
+MAE:  0.6725
+------------
+Fold 4
+RMSE: 0.8627
+MAE:  0.6738
+------------
+Fold 5
+RMSE: 0.8634
+MAE:  0.6731
+------------
+------------
+Mean RMSE: 0.8626
+Mean MAE : 0.6731
+------------
+------------
+...13271.8432069 seconds...
+Evaluating RMSE, MAE of algorithm NormalPredictor.
+
+------------
+Fold 1
+RMSE: 1.5065
+MAE:  1.2084
+------------
+Fold 2
+RMSE: 1.5069
+MAE:  1.2078
+------------
+Fold 3
+RMSE: 1.5033
+MAE:  1.2053
+------------
+Fold 4
+RMSE: 1.5060
+MAE:  1.2080
+------------
+Fold 5
+RMSE: 1.5085
+MAE:  1.2105
+------------
+------------
+Mean RMSE: 1.5062
+Mean MAE : 1.2080
+------------
+------------
+...23.5188930035 seconds...
+Evaluating RMSE, MAE of algorithm SlopeOne.
+
+------------
+Fold 1
+RMSE: 0.9071
+MAE:  0.7152
+------------
+Fold 2
+RMSE: 0.9075
+MAE:  0.7145
+------------
+Fold 3
+RMSE: 0.9046
+MAE:  0.7131
+------------
+Fold 4
+RMSE: 0.9061
+MAE:  0.7141
+------------
+Fold 5
+RMSE: 0.9071
+MAE:  0.7150
+------------
+------------
+Mean RMSE: 0.9065
+Mean MAE : 0.7144
+------------
+------------
+...283.482206106 seconds...
+Evaluating RMSE, MAE of algorithm CoClustering.
+
+------------
+Fold 1
+RMSE: 0.9143
+MAE:  0.7165
+------------
+Fold 2
+RMSE: 0.9202
+MAE:  0.7207
+------------
+Fold 3
+RMSE: 0.9121
+MAE:  0.7149
+------------
+Fold 4
+RMSE: 0.9166
+MAE:  0.7183
+------------
+Fold 5
+RMSE: 0.9188
+MAE:  0.7206
+------------
+------------
+Mean RMSE: 0.9164
+Mean MAE : 0.7182
+------------
+------------
+....78.4014880657 seconds....
+
+Process finished with exit code 0

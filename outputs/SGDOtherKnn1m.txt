@@ -1,0 +1,168 @@
+/home/sandeep/Desktop/RS/venv/bin/python /home/sandeep/Desktop/RS/proposed_OtherKNN.py
+Evaluating RMSE, MAE of algorithm KNNWithZScore.
+/home/sandeep/Desktop/RS/venv/lib/python2.7/site-packages/surprise/evaluate.py:66: UserWarning: The evaluate() method is deprecated. Please use model_selection.cross_validate() instead.
+
+  'model_selection.cross_validate() instead.', UserWarning)
+/home/sandeep/Desktop/RS/venv/lib/python2.7/site-packages/surprise/dataset.py:193: UserWarning: Using data.split() or using load_from_folds() without using a CV iterator is now deprecated. 
+  UserWarning)
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9300
+MAE:  0.7359
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9301
+MAE:  0.7354
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9319
+MAE:  0.7375
+------------
+Fold 4
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9300
+MAE:  0.7368
+------------
+Fold 5
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9316
+MAE:  0.7377
+------------
+------------
+Mean RMSE: 0.9307
+Mean MAE : 0.7366
+------------
+------------
+--- 782.093126059 seconds ---
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9232
+MAE:  0.7274
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9210
+MAE:  0.7255
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9228
+MAE:  0.7270
+------------
+Fold 4
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9240
+MAE:  0.7293
+------------
+Fold 5
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9241
+MAE:  0.7285
+------------
+------------
+Mean RMSE: 0.9230
+Mean MAE : 0.7275
+------------
+------------
+...754.663163185 seconds...
+Evaluating RMSE, MAE of algorithm KNNBaseline.
+
+------------
+Fold 1
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8693
+MAE:  0.6800
+------------
+Fold 2
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8677
+MAE:  0.6789
+------------
+Fold 3
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8682
+MAE:  0.6793
+------------
+Fold 4
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8692
+MAE:  0.6812
+------------
+Fold 5
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.8697
+MAE:  0.6813
+------------
+------------
+Mean RMSE: 0.8688
+Mean MAE : 0.6801
+------------
+------------
+...884.358464956 seconds...
+Evaluating RMSE, MAE of algorithm KNNWithMeans.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9287
+MAE:  0.7380
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9286
+MAE:  0.7373
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9305
+MAE:  0.7395
+------------
+Fold 4
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9288
+MAE:  0.7388
+------------
+Fold 5
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9305
+MAE:  0.7398
+------------
+------------
+Mean RMSE: 0.9294
+Mean MAE : 0.7387
+------------
+------------
+...733.286335945 seconds...
+
+Process finished with exit code 0
