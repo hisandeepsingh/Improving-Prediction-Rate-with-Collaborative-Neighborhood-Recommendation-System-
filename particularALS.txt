@@ -4,4 +4,6 @@ Estimating biases using als...
 Computing the pearson_baseline similarity matrix...
 Done computing similarity matrix.
 prediction by KNN+ALS
-user: 196        item: 242        r_ui = 4.00   est = 3.39   {u'actual_k': 40, u'was_impossible': False}
+user: 196        item: 242        r_ui = 4.00   est = 3.39   
+
+
