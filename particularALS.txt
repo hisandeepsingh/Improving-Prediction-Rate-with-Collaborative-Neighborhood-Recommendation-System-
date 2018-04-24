@@ -1,9 +1,5 @@
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Estimating biases using als...
-Computing the pearson_baseline similarity matrix...
-Done computing similarity matrix.
-prediction by KNN+ALS
+
+prediction
 user: 196        item: 242        r_ui = 4.00   est = 3.39   
 
 
