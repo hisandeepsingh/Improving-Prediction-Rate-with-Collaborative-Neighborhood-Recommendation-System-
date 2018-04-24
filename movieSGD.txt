@@ -1,0 +1,15 @@
+Estimating biases using als...
+Computing the pearson_baseline similarity matrix...
+Done computing similarity matrix.
+()
+The 10 nearest neighbors of Toy Story are:
+Matilda (1996)
+Striking Distance (1993)
+My Fellow Americans (1996)
+Relic, The (1997)
+Under Siege (1992)
+House of Yes, The (1997)
+Foreign Correspondent (1940)
+Last Supper, The (1995)
+Get Shorty (1995)
+Basic Instinct (1992)
